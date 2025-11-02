@@ -1,0 +1,105 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 40px auto;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Judul */
+h2 {
+    color: #337ab7;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Tombol umum */
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-success { background-color: #5cb85c; } /* hijau tambah */
+.btn-warning { background-color: #f0ad4e; } /* oranye edit */
+.btn-danger  { background-color: #d9534f; } /* merah hapus */
+.btn-secondary { background-color: #6c757d; }
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Tombol "Tambah Data" di kanan atas */
+.top-btn {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+table th {
+    background-color: #d9edf7;
+    color: #31708f;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Form */
+form {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    background-color: #fff;   /* ⬅ warna latar putih */
+    color: #000;              /* ⬅ teks hitam */
+    box-sizing: border-box;
+}
+
